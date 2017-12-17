@@ -12,6 +12,10 @@
 		513DB5781FE55EC800B3011F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 513DB5761FE55EC800B3011F /* Main.storyboard */; };
 		513DB57A1FE55EC800B3011F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 513DB5791FE55EC800B3011F /* Assets.xcassets */; };
 		513DB57D1FE55EC800B3011F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 513DB57B1FE55EC800B3011F /* LaunchScreen.storyboard */; };
+		513DB5851FE5606B00B3011F /* ValidateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DB5841FE5606B00B3011F /* ValidateTextField.swift */; };
+		513DB5871FE560C500B3011F /* TextFieldValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DB5861FE560C500B3011F /* TextFieldValidate.swift */; };
+		513DB5891FE562ED00B3011F /* AccoutTextFieldValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DB5881FE562ED00B3011F /* AccoutTextFieldValidate.swift */; };
+		513DB58B1FE562FD00B3011F /* PwdTextFieldValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DB58A1FE562FD00B3011F /* PwdTextFieldValidate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		513DB5791FE55EC800B3011F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		513DB57C1FE55EC800B3011F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		513DB57E1FE55EC800B3011F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		513DB5841FE5606B00B3011F /* ValidateTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateTextField.swift; sourceTree = "<group>"; };
+		513DB5861FE560C500B3011F /* TextFieldValidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldValidate.swift; sourceTree = "<group>"; };
+		513DB5881FE562ED00B3011F /* AccoutTextFieldValidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccoutTextFieldValidate.swift; sourceTree = "<group>"; };
+		513DB58A1FE562FD00B3011F /* PwdTextFieldValidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PwdTextFieldValidate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				513DB5791FE55EC800B3011F /* Assets.xcassets */,
 				513DB57B1FE55EC800B3011F /* LaunchScreen.storyboard */,
 				513DB57E1FE55EC800B3011F /* Info.plist */,
+				513DB5841FE5606B00B3011F /* ValidateTextField.swift */,
+				513DB5861FE560C500B3011F /* TextFieldValidate.swift */,
+				513DB5881FE562ED00B3011F /* AccoutTextFieldValidate.swift */,
+				513DB58A1FE562FD00B3011F /* PwdTextFieldValidate.swift */,
 			);
 			path = StrategyDemo;
 			sourceTree = "<group>";
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				513DB5891FE562ED00B3011F /* AccoutTextFieldValidate.swift in Sources */,
 				513DB5751FE55EC800B3011F /* ViewController.swift in Sources */,
+				513DB5871FE560C500B3011F /* TextFieldValidate.swift in Sources */,
 				513DB5731FE55EC800B3011F /* AppDelegate.swift in Sources */,
+				513DB5851FE5606B00B3011F /* ValidateTextField.swift in Sources */,
+				513DB58B1FE562FD00B3011F /* PwdTextFieldValidate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
